@@ -1,16 +1,13 @@
-# latihan_widget
+Introduction-Flutter-Widget
 
-A new Flutter project.
+``StatelessWidget``: Widget yang bersifat statis dan tidak memiliki state. StatelessWidget tidak dapat diubah setelah dibuat, sehingga tidak memiliki fungsi setState().
 
-## Getting Started
+``StatefulWidget``: Widget yang memiliki state, sehingga bisa diubah dan diperbarui. StatefulWidget menggunakan fungsi setState() untuk memperbarui tampilan aplikasi.
 
-This project is a starting point for a Flutter application.
+``setState()``: Fungsi yang digunakan untuk memperbarui state dari sebuah widget. Ketika setState() dipanggil, Flutter akan **memperbarui/membangun ulang tampilan UI dari Widget build()**.
 
-A few resources to get you started if this is your first Flutter project:
+``MaterialApp``: Widget yang menyediakan tampilan dasar untuk aplikasi Flutter dengan menggunakan material design. MaterialApp menyediakan berbagai macam widget, seperti Appbar, Scaffold, dan Text.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+``CupertinoApp``: Widget yang menyediakan tampilan dasar untuk aplikasi Flutter dengan menggunakan gaya desain Apple.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+``Scaffold``: Widget yang menyediakan tampilan dasar untuk sebuah halaman atau layar dalam aplikasi. Scaffold dapat berisi beberapa widget, seperti Appbar, Drawer, dan lain-lain.
