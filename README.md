@@ -1,6 +1,6 @@
 # Flutter: Pengenalan dan Dokumentasi
 
-![Flutter Logo](https://example.com/path/to/flutter-logo.png)
+![Flutter Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flutter_logo.svg/2048px-Flutter_logo.svg.png)
 
 ## Apa Itu Flutter?
 
